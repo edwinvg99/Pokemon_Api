@@ -1,17 +1,34 @@
-Members:
-Mariana Ospina Mira
-Edwin Velásquez Giraldo
-Pokémon API - React + Vite
-This project is a web application developed in React using Vite, which displays Pokémon character cards with their name and type.
-Technologies Used
-1. React
-2. Vite
-3. CSS
-When cloning the repository, make sure it's located in the project folder. After this, run:
-• npm install (installs dependencies)
-• npm run dev (starts the development server)
-After this, you'll be able to view:
-• Cards with information about the Pokémon obtained from the API.
-• Each card displays the Pokémon's name and type.
-API Used
-This application obtains data from the PokeApi: https://pokeapi.co/
+# Pokémon API - React + Vite
+
+## Members
+- Mariana Ospina Mira  
+- Edwin Velásquez Giraldo  
+
+## Project Overview
+This project is a web application developed using React and Vite, which displays Pokémon character cards with their name and type.
+
+## Technologies Used
+- React
+- Vite
+- CSS
+
+## Installation and Setup
+To run this project locally, follow these steps:
+
+1. Clone the repository into your project folder.
+2. Navigate to the project directory.
+3. Install dependencies by running:
+   ```sh
+   npm install
+   ```
+4. Start the development server with:
+   ```sh
+   npm run dev
+   ```
+
+## Features
+- Fetches Pokémon data from an external API.
+- Displays Pokémon cards with their name and type.
+
+## API Used
+This application retrieves data from [PokeAPI](https://pokeapi.co/).
