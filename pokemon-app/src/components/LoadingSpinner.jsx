@@ -1,9 +1,9 @@
 import React from 'react';
-import './LoadingSpinner.css'; 
+import '../styles/App.css'; 
 
 const LoadingSpinner = () => {
   return (
-    <div className="loading-spinner">
+    <div className="loading-spinner" >
     </div>
   );
 };

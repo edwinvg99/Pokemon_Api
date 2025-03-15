@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { fetchPokemonData } from '../services/api';
+import { fetchPokemon } from '../services/api';
 
 const usePokemonData = () => {
   const [pokemon, setPokemon] = useState([]);
@@ -9,7 +9,7 @@ const usePokemonData = () => {
   useEffect(() => {
     const loadPokemonData = async () => {
       try {
-        const data = await fetchPokemonData();
+        const data = await fetchPokemon();
         setPokemon(data);
       } catch (err) {
         setError(err);
